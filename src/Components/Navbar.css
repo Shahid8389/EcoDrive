@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.list-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container ul li{
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.active{
+    background-color: rgb(254, 254, 254);
+    border-radius: 1rem;
+    padding: 0.4rem 1rem;
+    color: black;
+}
